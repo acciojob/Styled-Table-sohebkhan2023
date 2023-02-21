@@ -1,1 +1,25 @@
-/* your code */
+.main{
+	border-collapse:collapse;
+	margin:25px 0;
+	font-size:0.9em;
+	min-width:400px;
+	border-radius:10px;
+	overflow:hidden;
+	box-shadow:0 0 20px lightblue;
+	
+}
+.main thead tr{
+	background-color:lightblue;
+	color:white;
+	text-align:left;
+	
+}
+.main th,
+.main td{
+	padding:12px 15px;
+}
+.main tbody tr:nth-of-type(even){
+	background-color:lightgray;
+}
+
+
